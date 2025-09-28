@@ -10,7 +10,7 @@ button.addEventListener("click", (e) => {
 	const age = parseInt(ageInput.value, 10);
 
 	if (!name || isNaN(age) || age <= 0) {
-	    alert('Please enter valid details.');
+	    alert("Please enter valid details.");
 	    return;
 	}
 	
